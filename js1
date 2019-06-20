@@ -1,0 +1,21 @@
+<style>
+	p{
+		color: purple;
+		font-family: 'Comic Sans MS';
+		font-size: 2em;
+	}
+</style>
+
+<p>My name is Allyssa</p>
+
+
+
+<script>
+	function handleClick() {
+		alert('no more alerts')
+	}
+</script>
+
+<button on:click|once={handleClick}>
+	Click me
+</button>
